@@ -30,6 +30,9 @@
     <ClCompile Include="Operations.cpp">
       <Filter>Исходные файлы\Introduction part #1</Filter>
     </ClCompile>
+    <ClCompile Include="Сonditions.cpp">
+      <Filter>Исходные файлы\Introduction part #1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Preprocessor_header.h">
@@ -39,6 +42,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Operations_header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Conditions_header.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

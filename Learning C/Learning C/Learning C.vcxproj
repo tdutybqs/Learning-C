@@ -143,8 +143,10 @@
     <ClCompile Include="Operations.cpp" />
     <ClCompile Include="Preprocessor.cpp" />
     <ClCompile Include="Variables.cpp" />
+    <ClCompile Include="Сonditions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Conditions_header.h" />
     <ClInclude Include="Operations_header.h" />
     <ClInclude Include="Preprocessor_header.h" />
     <ClInclude Include="Variables_header.h" />
