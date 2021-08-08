@@ -25,6 +25,12 @@
     <Filter Include="Файлы заголовков\Introduction part #2">
       <UniqueIdentifier>{cf00af44-c801-4bdf-af85-af0c2d6f2ef1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Pointers and arrays">
+      <UniqueIdentifier>{63443933-0646-4156-81c0-787ff8dc6a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Pointers and arrays">
+      <UniqueIdentifier>{f0ed381c-f7a3-41e4-ac85-4f49671766ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -48,6 +54,9 @@
     <ClCompile Include="Function.cpp">
       <Filter>Исходные файлы\Introduction part #2</Filter>
     </ClCompile>
+    <ClCompile Include="Pointers_and_arrays.cpp">
+      <Filter>Исходные файлы\Pointers and arrays</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -67,6 +76,9 @@
     </ClInclude>
     <ClInclude Include="Function_header.h">
       <Filter>Файлы заголовков\Introduction part #2</Filter>
+    </ClInclude>
+    <ClInclude Include="Pointers_and_arrays_headers.h">
+      <Filter>Файлы заголовков\Pointers and arrays</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

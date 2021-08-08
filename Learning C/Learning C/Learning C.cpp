@@ -5,13 +5,11 @@
 #include "Conditions_header.h"
 #include "Cycles_header.h"
 #include "Function_header.h"
+#include "Pointers_and_arrays_headers.h"
 
 
 int main()
 {
-    foo();
-    conditions();
-    cycles();
-    squares();
-    description_function();
+	pointer();
+	arrays();
 }

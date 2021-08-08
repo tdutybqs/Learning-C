@@ -143,6 +143,7 @@
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="Learning C.cpp" />
     <ClCompile Include="Operations.cpp" />
+    <ClCompile Include="Pointers_and_arrays.cpp" />
     <ClCompile Include="Preprocessor.cpp" />
     <ClCompile Include="Variables.cpp" />
     <ClCompile Include="Сonditions.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="Cycles_header.h" />
     <ClInclude Include="Function_header.h" />
     <ClInclude Include="Operations_header.h" />
+    <ClInclude Include="Pointers_and_arrays_headers.h" />
     <ClInclude Include="Preprocessor_header.h" />
     <ClInclude Include="Variables_header.h" />
   </ItemGroup>
