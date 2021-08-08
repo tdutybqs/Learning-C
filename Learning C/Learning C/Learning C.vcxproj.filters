@@ -16,6 +16,15 @@
     <Filter Include="Исходные файлы\Introduction part #1">
       <UniqueIdentifier>{da668e8d-f4d6-4452-bd24-ef36fcc8a150}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Introduction part #2">
+      <UniqueIdentifier>{266353ee-4590-400f-b55a-3fa9c246786b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Introduction part #1">
+      <UniqueIdentifier>{7f946e78-0806-4d29-972d-cd3a169c3cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Introduction part #2">
+      <UniqueIdentifier>{cf00af44-c801-4bdf-af85-af0c2d6f2ef1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -33,19 +42,31 @@
     <ClCompile Include="Сonditions.cpp">
       <Filter>Исходные файлы\Introduction part #1</Filter>
     </ClCompile>
+    <ClCompile Include="Cycles.cpp">
+      <Filter>Исходные файлы\Introduction part #1</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Исходные файлы\Introduction part #2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Preprocessor_header.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="Conditions_header.h">
+      <Filter>Файлы заголовков\Introduction part #1</Filter>
     </ClInclude>
-    <ClInclude Include="Variables_header.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="Cycles_header.h">
+      <Filter>Файлы заголовков\Introduction part #1</Filter>
     </ClInclude>
     <ClInclude Include="Operations_header.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы заголовков\Introduction part #1</Filter>
     </ClInclude>
-    <ClInclude Include="Conditions_header.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="Preprocessor_header.h">
+      <Filter>Файлы заголовков\Introduction part #1</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables_header.h">
+      <Filter>Файлы заголовков\Introduction part #1</Filter>
+    </ClInclude>
+    <ClInclude Include="Function_header.h">
+      <Filter>Файлы заголовков\Introduction part #2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

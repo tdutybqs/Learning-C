@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cycles.cpp" />
+    <ClCompile Include="Function.cpp" />
     <ClCompile Include="Learning C.cpp" />
     <ClCompile Include="Operations.cpp" />
     <ClCompile Include="Preprocessor.cpp" />
@@ -147,6 +149,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h" />
+    <ClInclude Include="Cycles_header.h" />
+    <ClInclude Include="Function_header.h" />
     <ClInclude Include="Operations_header.h" />
     <ClInclude Include="Preprocessor_header.h" />
     <ClInclude Include="Variables_header.h" />
