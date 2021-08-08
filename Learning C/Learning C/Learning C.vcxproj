@@ -142,9 +142,11 @@
     <ClCompile Include="Cycles.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="Learning C.cpp" />
+    <ClCompile Include="Lvalue_Rvalue.cpp" />
     <ClCompile Include="Operations.cpp" />
     <ClCompile Include="Pointers_and_arrays.cpp" />
     <ClCompile Include="Preprocessor.cpp" />
+    <ClCompile Include="Reference.cpp" />
     <ClCompile Include="Variables.cpp" />
     <ClCompile Include="Сonditions.cpp" />
   </ItemGroup>
@@ -152,9 +154,11 @@
     <ClInclude Include="Conditions_header.h" />
     <ClInclude Include="Cycles_header.h" />
     <ClInclude Include="Function_header.h" />
+    <ClInclude Include="Lvalue_Rvalue_header.h" />
     <ClInclude Include="Operations_header.h" />
     <ClInclude Include="Pointers_and_arrays_headers.h" />
     <ClInclude Include="Preprocessor_header.h" />
+    <ClInclude Include="Reference_header.h" />
     <ClInclude Include="Variables_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -6,10 +6,11 @@
 #include "Cycles_header.h"
 #include "Function_header.h"
 #include "Pointers_and_arrays_headers.h"
+#include "Reference_header.h"
+#include "Lvalue_Rvalue_header.h"
 
 
 int main()
 {
-	pointer();
-	arrays();
+	reference();
 }

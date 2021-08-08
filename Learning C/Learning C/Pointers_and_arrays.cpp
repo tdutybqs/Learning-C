@@ -1,5 +1,11 @@
 #include <iostream>
 
+
+// Pointer - pollute the code (we need to use * and &)
+// nullptr
+// Pointer arithmetic - you may get an invalid pointer
+
+
 void swap(int* a, int* b);
 
 void pass_array(int* array, int size);

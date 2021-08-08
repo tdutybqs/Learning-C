@@ -31,6 +31,18 @@
     <Filter Include="Файлы заголовков\Pointers and arrays">
       <UniqueIdentifier>{f0ed381c-f7a3-41e4-ac85-4f49671766ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Reference">
+      <UniqueIdentifier>{f76c12c3-3c58-4490-b616-9d4e1ab8d369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Reference">
+      <UniqueIdentifier>{ac6d31a7-b74a-4d50-b062-e65b1961aa99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Lvalue, Rvalue">
+      <UniqueIdentifier>{598fbd36-e438-4494-b408-2ad250db3300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Lvalue, Rvalue">
+      <UniqueIdentifier>{ae2279b5-4f37-4c4a-96f1-1456772a1188}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -57,6 +69,12 @@
     <ClCompile Include="Pointers_and_arrays.cpp">
       <Filter>Исходные файлы\Pointers and arrays</Filter>
     </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>Исходные файлы\Reference</Filter>
+    </ClCompile>
+    <ClCompile Include="Lvalue_Rvalue.cpp">
+      <Filter>Исходные файлы\Lvalue, Rvalue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -79,6 +97,12 @@
     </ClInclude>
     <ClInclude Include="Pointers_and_arrays_headers.h">
       <Filter>Файлы заголовков\Pointers and arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="Reference_header.h">
+      <Filter>Файлы заголовков\Reference</Filter>
+    </ClInclude>
+    <ClInclude Include="Lvalue_Rvalue_header.h">
+      <Filter>Файлы заголовков\Lvalue, Rvalue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
