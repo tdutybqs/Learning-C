@@ -8,9 +8,11 @@
 #include "Pointers_and_arrays_headers.h"
 #include "Reference_header.h"
 #include "Lvalue_Rvalue_header.h"
+#include "Dynamic_memory_header.h"
+
 
 
 int main()
 {
-	reference();
+	dynamic_memory();
 }

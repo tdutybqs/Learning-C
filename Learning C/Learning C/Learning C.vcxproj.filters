@@ -43,6 +43,12 @@
     <Filter Include="Файлы заголовков\Lvalue, Rvalue">
       <UniqueIdentifier>{ae2279b5-4f37-4c4a-96f1-1456772a1188}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Dynamic memory">
+      <UniqueIdentifier>{be792c3d-d6da-4d4b-8f31-9286cee5a490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Dynamic memory">
+      <UniqueIdentifier>{0a3e74ac-ea03-4592-af41-4e21498156e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -75,6 +81,9 @@
     <ClCompile Include="Lvalue_Rvalue.cpp">
       <Filter>Исходные файлы\Lvalue, Rvalue</Filter>
     </ClCompile>
+    <ClCompile Include="Dynamic_memory.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -103,6 +112,9 @@
     </ClInclude>
     <ClInclude Include="Lvalue_Rvalue_header.h">
       <Filter>Файлы заголовков\Lvalue, Rvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic_memory_header.h">
+      <Filter>Файлы заголовков\Dynamic memory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
