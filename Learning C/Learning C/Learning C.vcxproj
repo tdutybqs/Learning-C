@@ -144,6 +144,7 @@
     <ClCompile Include="Cycles.cpp" />
     <ClCompile Include="Dynamic_memory.cpp" />
     <ClCompile Include="Function.cpp" />
+    <ClCompile Include="Inheritance.cpp" />
     <ClCompile Include="Learning C.cpp" />
     <ClCompile Include="Lvalue_Rvalue.cpp" />
     <ClCompile Include="Operations.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="Cycles_header.h" />
     <ClInclude Include="Dynamic_memory_header.h" />
     <ClInclude Include="Function_header.h" />
+    <ClInclude Include="Inheritance_header.h" />
     <ClInclude Include="Lvalue_Rvalue_header.h" />
     <ClInclude Include="Operations_header.h" />
     <ClInclude Include="Pointers_and_arrays_headers.h" />

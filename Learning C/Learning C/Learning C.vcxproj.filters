@@ -67,6 +67,12 @@
     <Filter Include="Файлы заголовков\Copy_const">
       <UniqueIdentifier>{56afeb1c-18a5-4de6-865a-4337fddb4f94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Inheritance">
+      <UniqueIdentifier>{318c7a35-bc1a-44cf-8cf4-48416e278f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Inheritance">
+      <UniqueIdentifier>{24e581f8-4841-4bbf-a612-5652b85ed2d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -111,6 +117,9 @@
     <ClCompile Include="Copy_const.cpp">
       <Filter>Исходные файлы\Copy_const</Filter>
     </ClCompile>
+    <ClCompile Include="Inheritance.cpp">
+      <Filter>Исходные файлы\Inheritance</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -151,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="Copy_const_header.h">
       <Filter>Файлы заголовков\Copy_const</Filter>
+    </ClInclude>
+    <ClInclude Include="Inheritance_header.h">
+      <Filter>Файлы заголовков\Inheritance</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

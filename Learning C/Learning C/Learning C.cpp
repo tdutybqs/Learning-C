@@ -12,9 +12,11 @@
 #include "Structure_header.h"
 #include "Constructors_destructors_header.h"
 #include "Copy_const_header.h"
+#include "Inheritance_header.h"
+
 
 
 int main()
 {
-	copy_const();
+	Inheritance();
 }
