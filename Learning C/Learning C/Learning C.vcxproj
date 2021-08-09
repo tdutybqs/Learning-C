@@ -154,6 +154,7 @@
     <ClCompile Include="Reference.cpp" />
     <ClCompile Include="Structure.cpp" />
     <ClCompile Include="Variables.cpp" />
+    <ClCompile Include="Virtual_methods.cpp" />
     <ClCompile Include="Сonditions.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +173,7 @@
     <ClInclude Include="Reference_header.h" />
     <ClInclude Include="Structure_header.h" />
     <ClInclude Include="Variables_header.h" />
+    <ClInclude Include="Virtual_methods_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

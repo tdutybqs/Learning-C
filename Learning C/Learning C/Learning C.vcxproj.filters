@@ -79,6 +79,12 @@
     <Filter Include="Файлы заголовков\Overload">
       <UniqueIdentifier>{2a8fbd83-f644-44be-9385-f24ceeb4bcde}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Virtual methods">
+      <UniqueIdentifier>{93450450-464c-4a23-8b95-2ba2805eb1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Virtual methods">
+      <UniqueIdentifier>{1cd499a6-e2f6-40b8-bd8f-86ea2c3c7305}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -129,6 +135,9 @@
     <ClCompile Include="Overload.cpp">
       <Filter>Исходные файлы\Overload</Filter>
     </ClCompile>
+    <ClCompile Include="Virtual_methods.cpp">
+      <Filter>Исходные файлы\Virtual methods</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -175,6 +184,9 @@
     </ClInclude>
     <ClInclude Include="Overload_header.h">
       <Filter>Файлы заголовков\Overload</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtual_methods_header.h">
+      <Filter>Файлы заголовков\Virtual methods</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

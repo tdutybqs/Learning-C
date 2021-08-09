@@ -14,9 +14,10 @@
 #include "Copy_const_header.h"
 #include "Inheritance_header.h"
 #include "Overload_header.h"
+#include "Virtual_methods_header.h"
 
 
 int main()
 {
-	overload();
+	virtual_methods();
 }
