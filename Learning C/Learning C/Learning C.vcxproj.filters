@@ -61,6 +61,12 @@
     <Filter Include="Файлы заголовков\Constructors_destructors">
       <UniqueIdentifier>{6baddd95-144d-4a08-9de0-07b2ced41b7b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Copy_const">
+      <UniqueIdentifier>{877114b5-17d3-4e84-bf25-bbde51aa82f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Copy_const">
+      <UniqueIdentifier>{56afeb1c-18a5-4de6-865a-4337fddb4f94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -102,6 +108,9 @@
     <ClCompile Include="Constructors_destructors.cpp">
       <Filter>Исходные файлы\Constructors, destructors</Filter>
     </ClCompile>
+    <ClCompile Include="Copy_const.cpp">
+      <Filter>Исходные файлы\Copy_const</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -139,6 +148,9 @@
     </ClInclude>
     <ClInclude Include="Constructors_destructors_header.h">
       <Filter>Файлы заголовков\Constructors_destructors</Filter>
+    </ClInclude>
+    <ClInclude Include="Copy_const_header.h">
+      <Filter>Файлы заголовков\Copy_const</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

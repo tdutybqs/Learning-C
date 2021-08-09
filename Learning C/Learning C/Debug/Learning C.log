@@ -1,2 +1,6 @@
-﻿  Constructors.cpp
+﻿  Copy_const.cpp
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Copy_const.cpp(5,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Copy_const.cpp(10,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Copy_const.cpp(15,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Copy_const.cpp(24,22): warning C4018: <: несоответствие типов со знаком и без знака
   Learning C.vcxproj -> C:\Users\Евгений\Desktop\Learning-C\Learning C\Debug\Learning C.exe

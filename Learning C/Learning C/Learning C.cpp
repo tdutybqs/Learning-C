@@ -11,11 +11,10 @@
 #include "Dynamic_memory_header.h"
 #include "Structure_header.h"
 #include "Constructors_destructors_header.h"
-
+#include "Copy_const_header.h"
 
 
 int main()
 {
-	constructor();
-	destructor();
+	copy_const();
 }

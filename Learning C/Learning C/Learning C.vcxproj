@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Constructors_destructors.cpp" />
+    <ClCompile Include="Copy_const.cpp" />
     <ClCompile Include="Cycles.cpp" />
     <ClCompile Include="Dynamic_memory.cpp" />
     <ClCompile Include="Function.cpp" />
@@ -156,6 +157,7 @@
   <ItemGroup>
     <ClInclude Include="Conditions_header.h" />
     <ClInclude Include="Constructors_destructors_header.h" />
+    <ClInclude Include="Copy_const_header.h" />
     <ClInclude Include="Cycles_header.h" />
     <ClInclude Include="Dynamic_memory_header.h" />
     <ClInclude Include="Function_header.h" />
