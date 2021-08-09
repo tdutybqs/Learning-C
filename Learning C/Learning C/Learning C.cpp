@@ -10,9 +10,12 @@
 #include "Lvalue_Rvalue_header.h"
 #include "Dynamic_memory_header.h"
 #include "Structure_header.h"
+#include "Constructors_destructors_header.h"
+
 
 
 int main()
 {
-	structure();
+	constructor();
+	destructor();
 }

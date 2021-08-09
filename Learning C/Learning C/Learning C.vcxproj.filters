@@ -55,6 +55,12 @@
     <Filter Include="Исходные файлы\Structure">
       <UniqueIdentifier>{2b57934b-94b1-4b8a-956f-cf9779eae640}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Constructors, destructors">
+      <UniqueIdentifier>{310523ee-d9a4-475f-97ed-dc4655e153bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Constructors_destructors">
+      <UniqueIdentifier>{6baddd95-144d-4a08-9de0-07b2ced41b7b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -93,6 +99,9 @@
     <ClCompile Include="Structure.cpp">
       <Filter>Исходные файлы\Structure</Filter>
     </ClCompile>
+    <ClCompile Include="Constructors_destructors.cpp">
+      <Filter>Исходные файлы\Constructors, destructors</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -127,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="Structure_header.h">
       <Filter>Файлы заголовков\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Constructors_destructors_header.h">
+      <Filter>Файлы заголовков\Constructors_destructors</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
