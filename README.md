@@ -6,3 +6,4 @@
 5) Lvalue, Rvalue
 6) Dynamic memory
 7) Structures
+8) Constructors, destructors
