@@ -153,6 +153,7 @@
     <ClCompile Include="Pointers_and_arrays.cpp" />
     <ClCompile Include="Preprocessor.cpp" />
     <ClCompile Include="Reference.cpp" />
+    <ClCompile Include="STL.cpp" />
     <ClCompile Include="Structure.cpp" />
     <ClCompile Include="Variables.cpp" />
     <ClCompile Include="Virtual_methods.cpp" />
@@ -173,6 +174,7 @@
     <ClInclude Include="Pointers_and_arrays_headers.h" />
     <ClInclude Include="Preprocessor_header.h" />
     <ClInclude Include="Reference_header.h" />
+    <ClInclude Include="STL_header.h" />
     <ClInclude Include="Structure_header.h" />
     <ClInclude Include="Variables_header.h" />
     <ClInclude Include="Virtual_methods_header.h" />

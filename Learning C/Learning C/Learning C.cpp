@@ -16,8 +16,10 @@
 #include "Overload_header.h"
 #include "Virtual_methods_header.h"
 #include "Key-word_static.h"
+#include "STL_header.h"
+
 
 int main()
 {
-	static_key_word();
+	run();
 }

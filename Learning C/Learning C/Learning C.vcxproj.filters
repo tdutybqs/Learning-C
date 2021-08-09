@@ -91,6 +91,12 @@
     <Filter Include="Файлы заголовков\Key-word static">
       <UniqueIdentifier>{11118edd-4ffa-468e-94b9-c0687bc077cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\STL">
+      <UniqueIdentifier>{64461619-f9e0-4986-bd61-1205c8bbdcf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\STL">
+      <UniqueIdentifier>{485a97fe-e94c-4e8b-a291-8c513d449113}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -147,6 +153,9 @@
     <ClCompile Include="Key-word_static.cpp">
       <Filter>Исходные файлы\Key-word static</Filter>
     </ClCompile>
+    <ClCompile Include="STL.cpp">
+      <Filter>Исходные файлы\STL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -199,6 +208,9 @@
     </ClInclude>
     <ClInclude Include="Key-word_static.h">
       <Filter>Файлы заголовков\Key-word static</Filter>
+    </ClInclude>
+    <ClInclude Include="STL_header.h">
+      <Filter>Файлы заголовков\STL</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
