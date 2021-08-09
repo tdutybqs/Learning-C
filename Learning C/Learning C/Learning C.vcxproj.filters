@@ -85,6 +85,12 @@
     <Filter Include="Файлы заголовков\Virtual methods">
       <UniqueIdentifier>{1cd499a6-e2f6-40b8-bd8f-86ea2c3c7305}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Key-word static">
+      <UniqueIdentifier>{7916ee07-f236-49b2-82ae-e0f453b5a849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Key-word static">
+      <UniqueIdentifier>{11118edd-4ffa-468e-94b9-c0687bc077cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -138,6 +144,9 @@
     <ClCompile Include="Virtual_methods.cpp">
       <Filter>Исходные файлы\Virtual methods</Filter>
     </ClCompile>
+    <ClCompile Include="Key-word_static.cpp">
+      <Filter>Исходные файлы\Key-word static</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -187,6 +196,9 @@
     </ClInclude>
     <ClInclude Include="Virtual_methods_header.h">
       <Filter>Файлы заголовков\Virtual methods</Filter>
+    </ClInclude>
+    <ClInclude Include="Key-word_static.h">
+      <Filter>Файлы заголовков\Key-word static</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

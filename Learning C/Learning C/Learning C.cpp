@@ -15,9 +15,9 @@
 #include "Inheritance_header.h"
 #include "Overload_header.h"
 #include "Virtual_methods_header.h"
-
+#include "Key-word_static.h"
 
 int main()
 {
-	virtual_methods();
+	static_key_word();
 }
