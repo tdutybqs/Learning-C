@@ -2,3 +2,5 @@
 1) Introduction part #1 (preprocessor, variables, conditions, cycles)
 2) Introduction part #2 (functions) 
 3) Pointers and arrays
+4) Reference
+5) Lvalue, Rvalue
