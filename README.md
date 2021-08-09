@@ -4,3 +4,4 @@
 3) Pointers and arrays
 4) Reference
 5) Lvalue, Rvalue
+6) Dynamic memory
