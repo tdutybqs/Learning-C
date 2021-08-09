@@ -73,6 +73,12 @@
     <Filter Include="Файлы заголовков\Inheritance">
       <UniqueIdentifier>{24e581f8-4841-4bbf-a612-5652b85ed2d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Overload">
+      <UniqueIdentifier>{c1ebeee8-4af8-4bbf-b6fa-6ef741f63561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Overload">
+      <UniqueIdentifier>{2a8fbd83-f644-44be-9385-f24ceeb4bcde}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Learning C.cpp">
@@ -120,6 +126,9 @@
     <ClCompile Include="Inheritance.cpp">
       <Filter>Исходные файлы\Inheritance</Filter>
     </ClCompile>
+    <ClCompile Include="Overload.cpp">
+      <Filter>Исходные файлы\Overload</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conditions_header.h">
@@ -163,6 +172,9 @@
     </ClInclude>
     <ClInclude Include="Inheritance_header.h">
       <Filter>Файлы заголовков\Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Overload_header.h">
+      <Filter>Файлы заголовков\Overload</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
