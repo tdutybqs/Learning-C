@@ -148,6 +148,7 @@
     <ClCompile Include="Pointers_and_arrays.cpp" />
     <ClCompile Include="Preprocessor.cpp" />
     <ClCompile Include="Reference.cpp" />
+    <ClCompile Include="Structure.cpp" />
     <ClCompile Include="Variables.cpp" />
     <ClCompile Include="Сonditions.cpp" />
   </ItemGroup>
@@ -161,6 +162,7 @@
     <ClInclude Include="Pointers_and_arrays_headers.h" />
     <ClInclude Include="Preprocessor_header.h" />
     <ClInclude Include="Reference_header.h" />
+    <ClInclude Include="Structure_header.h" />
     <ClInclude Include="Variables_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

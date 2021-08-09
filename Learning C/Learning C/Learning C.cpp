@@ -9,10 +9,10 @@
 #include "Reference_header.h"
 #include "Lvalue_Rvalue_header.h"
 #include "Dynamic_memory_header.h"
-
+#include "Structure_header.h"
 
 
 int main()
 {
-	dynamic_memory();
+	structure();
 }
