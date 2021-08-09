@@ -5,3 +5,4 @@
 4) Reference
 5) Lvalue, Rvalue
 6) Dynamic memory
+7) Structure
