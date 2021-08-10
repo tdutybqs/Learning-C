@@ -3,8 +3,7 @@
 #include <list>
 
 template <typename T>
-void sort_insertion(T& a) {
-	// Insertion
+void sort(T& a) {
 	for (int i = 0; i < a.size(); ++i) {
 		for (int j = a.size() - 1; j >= i; --j) {
 			if (a[i] < a[j]) {
@@ -17,7 +16,6 @@ void sort_insertion(T& a) {
 
 template <typename T>
 void bubble_sort(T& a) {
-	// Bubble
 	for (int i = 0; i < a.size(); ++i) {
 		for (int j = 0; j < a.size() - 1; ++j) {
 			if (a[j] > a[j + 1]) std::swap(a[j], a[j + 1]);
@@ -36,7 +34,7 @@ void print(const T& a) {
 void run() {
 	std::vector<int> a{1,2,3,4,5,6,7,8,9,10};
 	print(a);
-	sort_insertion(a);
+	sort(a);
 	print(a);
 	bubble_sort(a);
 	print(a);
