@@ -1,15 +1,2 @@
-﻿  STL.cpp
-C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\STL.cpp(9,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\STL.cpp(40): message : выполняется компиляция ссылки на экземпляр шаблон функции "void sort_insertion<std::vector<int,std::allocator<int>>>(T &)"
-          with
-          [
-              T=std::vector<int,std::allocator<int>>
-          ]
-C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\STL.cpp(22,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\STL.cpp(42): message : выполняется компиляция ссылки на экземпляр шаблон функции "void bubble_sort<std::vector<int,std::allocator<int>>>(T &)"
-          with
-          [
-              T=std::vector<int,std::allocator<int>>
-          ]
-C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\STL.cpp(23,21): warning C4018: <: несоответствие типов со знаком и без знака
+﻿  Learning C.cpp
   Learning C.vcxproj -> C:\Users\Евгений\Desktop\Learning-C\Learning C\Debug\Learning C.exe

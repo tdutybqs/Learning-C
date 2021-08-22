@@ -17,9 +17,10 @@
 #include "Virtual_methods_header.h"
 #include "Key-word_static.h"
 #include "STL_header.h"
+#include "Thread_header.h"
 
 
 int main()
 {
-	run();
+	transfer_parameters();
 }
