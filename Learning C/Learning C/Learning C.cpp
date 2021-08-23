@@ -22,5 +22,5 @@
 
 int main()
 {
-	transfer_parameters();
+	sort_with_thread();
 }

@@ -5,5 +5,6 @@ void thread_join();
 void thread_detach();
 void no_thread();
 void transfer_parameters();
+void sort_with_thread();
 
 #endif

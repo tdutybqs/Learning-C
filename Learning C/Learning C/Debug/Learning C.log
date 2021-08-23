@@ -1,2 +1,7 @@
-﻿  Learning C.cpp
+﻿  Thread.cpp
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Thread.cpp(84,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Thread.cpp(85,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Thread.cpp(93,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Thread.cpp(94,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\Desktop\Learning-C\Learning C\Learning C\Thread.cpp(103,22): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Learning C.vcxproj -> C:\Users\Евгений\Desktop\Learning-C\Learning C\Debug\Learning C.exe
