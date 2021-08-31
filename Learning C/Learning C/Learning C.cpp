@@ -22,5 +22,5 @@
 
 int main()
 {
-	sort_with_thread();
+	thread_class();
 }

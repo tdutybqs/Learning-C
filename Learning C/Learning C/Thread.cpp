@@ -4,6 +4,7 @@
 #include <vector>
 #include <ctime>
 
+
 int count = 200;
 
 
@@ -13,7 +14,6 @@ void other_function() {
 		std::this_thread::sleep_for(std::chrono::milliseconds(count));
 	}
 }
-
 
 
 void no_thread() {
@@ -117,4 +117,62 @@ void sort_with_thread() {
 	auto end = std::clock();
 	std::cout << "\nTime: "<< end - start << std::endl;
 	print_vector(my_vector);
+}
+
+
+int sum_a_b(int a, int b) {
+	std::cout << "ID: " << std::this_thread::get_id() << "------------------Work start" << std::endl;
+	std::this_thread::sleep_for(std::chrono::milliseconds(500));
+	std::cout << "ID: " << std::this_thread::get_id() << "------------------Work end" << std::endl;
+	return a + b;
+}
+
+
+class test {
+public:
+	test(int a, int b) : _a(a), _b(b) {};
+	void PrintValues() {
+		std::cout << "A = " << _a << "\tB = " << _b << std::endl;
+	}
+	void ChangeA(int a) {
+		std::cout << "ID: " << std::this_thread::get_id() << "------------------Work start" << std::endl;
+		std::this_thread::sleep_for(std::chrono::milliseconds(500));
+		std::cout << "ID: " << std::this_thread::get_id() << "------------------Work end" << std::endl;
+		_a = a;
+	}
+private:
+	int _a = 0;
+	int _b = 0;
+};
+
+
+void return_value() {
+	int a = 10;
+	int b = 20;
+	int result = 0;
+	std::thread t([&]() {
+		result = sum_a_b(a, b);
+		}); // well
+	for (int i = 0; i < 10; ++i) {
+		std::cout << "ID: " << std::this_thread::get_id() << "\t" << i << std::endl;
+		std::this_thread::sleep_for(std::chrono::milliseconds(500));
+		t.join(); //wait thread
+		std::cout << "Result = " << result << std::endl;
+	}
+}
+
+
+void thread_class() {
+	test newObject(10, 20);
+	newObject.PrintValues();
+	//std::thread m(newObject.ChangeA(40)); // error
+	std::thread t([&]() {
+		newObject.ChangeA(30);
+		});
+	for (int i = 0; i < 10; ++i) {
+		std::cout << "ID: " << std::this_thread::get_id() << "\t" << i << std::endl;
+		std::this_thread::sleep_for(std::chrono::milliseconds(500));
+	} // load
+	t.join(); // wait thread
+	newObject.PrintValues();
 }
