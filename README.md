@@ -10,6 +10,6 @@
 9) Copy constructors.
 10) Inheritance.
 11) Overload.
-12) Virtual. Static polimorfizm, dynamic polimorfizm
+12) Virtual. Static polimorfizm, dynamic polimorfizm.
 13) Static.
 14) Thread. Refer by reference, chrono, sort by thread, get value from function of thread, use methods of class.
